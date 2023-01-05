@@ -151,7 +151,7 @@ Deepak.ev.on('group-participants.update', async (anu) => {
                 Deepaktext = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *ZenitsuBot*, Welcome to ${metadata.subject}.
+I am *A17*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
@@ -168,9 +168,9 @@ Deepak.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                 	let WAuserName = num
                     Deepaktext = `
-Okay Bye 👋, @${WAuserName.split("@")[0]},
+ Bye 👋, @${WAuserName.split("@")[0]},
 
-I hope you will come back soon, but You will be missed!
+Ur not gonna miss baby 🤤!
 `
 
     let buttonMessage = {
